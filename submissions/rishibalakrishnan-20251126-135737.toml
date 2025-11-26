@@ -1,0 +1,19 @@
+[green_agent]
+image = "ghcr.io/rishibalakrishnan/agentbeats-tutorial-debate-judge:latest" # Your agent image reference
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" } # Environment variables can be provided as static strings or injected by GitHub Actions like GOOGLE_API_KEY here. Check out https://docs.github.com/en/actions/how-tos/write-workflows/choose-what-workflows-do/use-secrets for details.
+
+[[participants]]
+agentbeats_id = "019ac069-ffd6-7f83-854d-d954e93c12ce" 
+name = "pro_debater" # This is defined by and specific to the green agent
+image = "ghcr.io/rishibalakrishnan/agentbeats-tutorial-debater:latest" # Your purple agent container image URL goes here
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
+
+[[participants]]
+agentbeats_id = "019ac06a-7224-78d1-98d4-cb59e5397f21" # Purple agent id goes here
+name = "con_debater"
+image = "ghcr.io/rishibalakrishnan/agentbeats-tutorial-debater:latest" # Purple agent container image URL goes her
+env = {GOOGLE_API_KEY = "${GOOGLE_API_KEY}"}
+
+[config]
+topic = "Should artificial intelligence be regulated?"
+num_rounds = 2
