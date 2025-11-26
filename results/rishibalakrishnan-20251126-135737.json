@@ -1,0 +1,29 @@
+{
+  "participants": {
+    "pro_debater": "019ac069-ffd6-7f83-854d-d954e93c12ce",
+    "con_debater": "019ac06a-7224-78d1-98d4-cb59e5397f21"
+  },
+  "results": [
+    {
+      "winner": "pro_debater",
+      "detail": {
+        "pro_debater": {
+          "emotional_appeal": 0.8,
+          "argument_clarity": 0.9,
+          "argument_arrangement": 0.9,
+          "relevance_to_topic": 1.0,
+          "total_score": 3.6
+        },
+        "con_debater": {
+          "emotional_appeal": 0.7,
+          "argument_clarity": 0.8,
+          "argument_arrangement": 0.8,
+          "relevance_to_topic": 1.0,
+          "total_score": 3.3
+        },
+        "winner": "pro_debater",
+        "reason": "The Pro side won this debate by effectively establishing a compelling case for the necessity of AI regulation, even while acknowledging its challenges. The Pro's emotional appeal successfully leveraged a sense of urgency and responsibility, highlighting significant ethical, economic, and existential risks that resonated with the audience's concern for human well-being. Their arguments were consistently clear, well-supported, and methodically presented, providing a strong framework of three pillars and effectively dismantling the Con's points in the rebuttal. The Pro successfully reframed the 'stifling innovation' argument as a 'false dilemma' and presented regulation as a guide rather than a barrier, offering tangible strategies to mitigate concerns like regulatory capture. While the Con also presented clear arguments and maintained relevance, their primary stance of delaying regulation due to incomplete understanding or fear of potential pitfalls was less convincing against the Pro's call for proactive, responsible oversight. The Pro's ability to offer solutions to the Con's concerns, rather than simply dismissing them, solidified their position."
+      }
+    }
+  ]
+}
